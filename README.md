@@ -37,6 +37,7 @@ JUI.changeBackgroundColor(Colors.RED);
 System.out.println("This line should have different background color!");
 JUI.changeBackgroundColor(Colors.DEFAULT);
 ```
+**Note:** If you want to use *getInput()* function, execute `stty raw` before
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
