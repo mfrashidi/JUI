@@ -374,40 +374,4 @@ public final class JUI {
         isStrikethrough = !isStrikethrough;
         System.out.flush();
     }
-
-    public static void main(String[] args) {
-        System.out.print("The color of ");
-        JUI.changeColor(Colors.BOLD_CYAN);
-        System.out.print("this");
-        JUI.changeColor(Colors.DEFAULT);
-        System.out.println(" should be different!");
-
-        System.out.print("The type of ");
-        JUI.bold();
-        System.out.print("this");
-        JUI.bold();
-        System.out.println(" should be bold!");
-
-        System.out.print("The type of ");
-        JUI.italic();
-        System.out.print("this");
-        JUI.italic();
-        System.out.println(" should be italic!");
-
-        System.out.print("The type of ");
-        JUI.underline();
-        System.out.print("this");
-        JUI.underline();
-        System.out.println(" should be underlined!");
-
-        System.out.print("The type of ");
-        JUI.strikethrough();
-        System.out.print("this");
-        JUI.strikethrough();
-        System.out.println(" should be strikethrough!");
-
-        JUI.changeBackgroundColor(Colors.RED);
-        System.out.println("This line should have different background color!");
-        JUI.changeBackgroundColor(Colors.DEFAULT);
-    }
 }
